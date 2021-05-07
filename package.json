@@ -1,0 +1,27 @@
+{
+    "name": "color-tester",
+    "version": "0.0.1",
+    "description": "色を変えて見た目をテストするアプリです。",
+    "repository": {},
+    "license": "MIT",
+    "author": {
+        "name": "sevenc-nanashi",
+        "url": "https://github.com/color-tester"
+    },
+    "build": {
+        "appId": "com.electron.clipboard-gallary",
+        "win": {
+            "target": "portable"
+        },
+        "productName": "color-tester",
+        "files": [
+            "*"
+        ]
+    },
+    "devDependencies": {
+        "electron": "^12.0.6"
+    },
+    "dependencies": {
+        "@electron/remote": "^1.1.0"
+    }
+}
