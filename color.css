@@ -127,8 +127,9 @@ tbody td {
     border-radius: .25rem;
 }
 
+.bg:nth-of-type(2) .react span,
 .bg:nth-of-type(3) .react span {
-    background-color: rgba(255, 255, 255, 0.08);
+    background-color: rgba(255, 255, 255, 0.06);
 }
 
 .react2 {
